@@ -21,7 +21,7 @@ function Footer() {
       <div className="container">
         <a href="/">
           <img
-            src="/public/assets/images/logo.svg"
+            src="/assets/images/logo.svg"
             alt="logo-img"
             className="w-[175px] h-[66px] object-contain"
           />
@@ -29,7 +29,7 @@ function Footer() {
         <div className="flex justify-between flex-wrap flex-col md:flex-row gap-[30px] mt-[30px]">
           <div className="flex items-start gap-[15px] w-[340px] max-w-full">
             <img
-              src="/public/assets/images/icon-location.svg"
+              src="/assets/images/icon-location.svg"
               alt="location-img"
               className="w-[18px] h-[18px] object-contain "
             />
@@ -39,7 +39,7 @@ function Footer() {
               fuga.
             </p>
           </div>
-          <div >
+          <div>
             {contact.map((item) => (
               <div
                 key={item.text}
@@ -72,11 +72,11 @@ function Footer() {
                 <a className="group">
                   <div className="w-[40px] h-[40px] element-center border border-white rounded-full">
                     {item === "facebook" ? (
-                      <FaFacebookF  className="group-hover:text-blue-700 transition-all duration-200"/>
+                      <FaFacebookF className="group-hover:text-blue-700 transition-all duration-200" />
                     ) : item === "twitter" ? (
-                      <FaTwitter className="group-hover:text-blue-400 transition-all duration-200"/>
+                      <FaTwitter className="group-hover:text-blue-400 transition-all duration-200" />
                     ) : (
-                      <FaInstagram className="group-hover:text-pink-600 transition-all duration-200"/>
+                      <FaInstagram className="group-hover:text-pink-600 transition-all duration-200" />
                     )}
                   </div>
                 </a>

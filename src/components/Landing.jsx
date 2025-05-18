@@ -8,7 +8,7 @@ function Landing() {
           <div className="w-[750px] max-w-full">
             <img
               className="w-full h-fit"
-              src="/assets/images/illustration-intro.svg"
+              src="/assets/images/illustration-intro.png"
               alt="landing"
             />
           </div>
@@ -32,7 +32,7 @@ function Landing() {
       <div className="w-full h-[200px]">
         <img
           className="w-full h-full"
-          src="/assets/images/bg-intro-mobile.svg"
+          src="/assets/images/bg-curvy-mobile.svg"
           alt="bg-intro-mobile"
         />
       </div>
