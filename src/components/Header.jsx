@@ -23,7 +23,7 @@ function Header() {
       <div className="container flex justify-between items-center gap-[30px] sm:gap-0 flex-col sm:flex-row px-[50px]">
         <a href="/">
           <img
-            src="/public/assets/images/logo.svg"
+            src="/assets/images/logo.svg"
             alt="Logo-image"
             className="w-[175px] h-[66px] object-contain"
           />

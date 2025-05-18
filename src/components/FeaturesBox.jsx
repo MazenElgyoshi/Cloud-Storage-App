@@ -4,7 +4,7 @@ function FeaturesBox({ title, icon, desc }) {
   return (
     <div className="element-center flex-col text-white text-center">
       <img
-        src={`/public/assets/images/${icon}`}
+        src={`/assets/images/${icon}`}
         alt="icon-img"
         className="w-[80px] h-[80px] object-contain"
       />

@@ -46,7 +46,7 @@ function Footer() {
                 className="flex items-center gap-[15px] mb-[15px] last-of-type:mb-0"
               >
                 <img
-                  src={`/public/assets/images/${item.icon}`}
+                  src={`/assets/images/${item.icon}`}
                   alt="icon"
                   className="w-[18px] h-[18] object-contain"
                 />

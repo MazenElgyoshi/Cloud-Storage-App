@@ -6,7 +6,7 @@ function StayProductive() {
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px] place-items-center">
         <div>
           <img
-            src="/public/assets/images/illustration-stay-productive.png"
+            src="/assets/images/illustration-stay-productive.png"
             alt="stay-productive-img"
           />
         </div>
@@ -34,7 +34,7 @@ function StayProductive() {
           >
             See how Fylo works
             <img
-              src="/public/assets/images/icon-arrow.svg"
+              src="/assets/images/icon-arrow.svg"
               alt="arrow-img"
               className="w-[20px] h-[20px] object-contain animate-[moveRight_1s_ease-in-out_infinite]"
             />
